@@ -7,18 +7,17 @@
     <meta name="keywords" content="Fashi, book, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" th:href="@{/image/favicon.ico}" type="image/x-icon"/>
-    <link rel="shortcut icon" th:href="@{/image/favicon.ico}" type="image/x-icon"/>
-    <title>Fashi</title>
+    <link rel="icon" th:href="@{/img/favicon.png}" type="image/x-icon"/>
+    <link rel="shortcut icon" th:href="@{/img/favicon.png}" type="image/x-icon"/>
+    <title>Fashi | Home</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
     <link rel="stylesheet" th:href="@{/vendor/bootstrap/css/bootstrap.min.css}">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-<!--    <link rel="stylesheet" th:href="@{/vendor/fontawesome/css/font-awesome.min.css}">-->
-    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
+    <link rel="stylesheet" th:href="@{/vendor/fontawesome/css/all.min.css}">
+<!--    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">-->
     <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/nice-select.css" type="text/css">
@@ -58,10 +57,10 @@
                         </select>
                     </div>
                     <div class="top-social">
-                        <a href="#"><i class="ti-facebook"></i></a>
-                        <a href="#"><i class="ti-twitter-alt"></i></a>
-                        <a href="#"><i class="ti-linkedin"></i></a>
-                        <a href="#"><i class="ti-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
                     </div>
                 </div>
             </div>
@@ -81,18 +80,14 @@
                             <button type="button" class="category-btn">All Categories</button>
                             <div class="input-group">
                                 <input type="text" placeholder="What do you need?">
-                                <button type="button"><i class="ti-search"></i></button>
+                                <button type="button">
+                                    <i class="fal fa-search"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 text-right col-md-3">
                         <ul class="nav-right">
-                            <li class="heart-icon">
-                                <a href="#">
-                                    <i class="icon_heart_alt"></i>
-                                    <span>1</span>
-                                </a>
-                            </li>
                             <li class="cart-icon">
                                 <a href="#">
                                     <i class="icon_bag_alt"></i>
@@ -140,6 +135,7 @@
                                 </div>
                             </li>
                             <li class="cart-price">$150.00</li>
+                            <li></li>
                         </ul>
                     </div>
                 </div>
@@ -149,7 +145,7 @@
             <div class="container">
                 <div class="nav-depart">
                     <div class="depart-btn">
-                        <i class="ti-menu"></i>
+                        <i class="far fa-bars"></i>
                         <span>All departments</span>
                         <ul class="depart-hover">
                             <li class="active"><a href="#">Women’s Clothing</a></li>
@@ -290,9 +286,6 @@
                             <div class="pi-pic">
                                 <img src="img/products/women-1.jpg" alt="">
                                 <div class="sale">Sale</div>
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
                                 <ul>
                                     <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
                                     <li class="quick-view"><a href="#">+ Quick View</a></li>
@@ -313,9 +306,6 @@
                         <div class="product-item">
                             <div class="pi-pic">
                                 <img src="img/products/women-2.jpg" alt="">
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
                                 <ul>
                                     <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
                                     <li class="quick-view"><a href="#">+ Quick View</a></li>
@@ -335,9 +325,6 @@
                         <div class="product-item">
                             <div class="pi-pic">
                                 <img src="img/products/women-3.jpg" alt="">
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
                                 <ul>
                                     <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
                                     <li class="quick-view"><a href="#">+ Quick View</a></li>
@@ -357,9 +344,6 @@
                         <div class="product-item">
                             <div class="pi-pic">
                                 <img src="img/products/women-4.jpg" alt="">
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
                                 <ul>
                                     <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
                                     <li class="quick-view"><a href="#">+ Quick View</a></li>
@@ -438,9 +422,6 @@
                             <div class="pi-pic">
                                 <img src="img/products/man-1.jpg" alt="">
                                 <div class="sale">Sale</div>
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
                                 <ul>
                                     <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
                                     <li class="quick-view"><a href="#">+ Quick View</a></li>
@@ -461,9 +442,6 @@
                         <div class="product-item">
                             <div class="pi-pic">
                                 <img src="img/products/man-2.jpg" alt="">
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
                                 <ul>
                                     <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
                                     <li class="quick-view"><a href="#">+ Quick View</a></li>
@@ -483,9 +461,6 @@
                         <div class="product-item">
                             <div class="pi-pic">
                                 <img src="img/products/man-3.jpg" alt="">
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
                                 <ul>
                                     <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
                                     <li class="quick-view"><a href="#">+ Quick View</a></li>
@@ -505,9 +480,6 @@
                         <div class="product-item">
                             <div class="pi-pic">
                                 <img src="img/products/man-4.jpg" alt="">
-                                <div class="icon">
-                                    <i class="icon_heart_alt"></i>
-                                </div>
                                 <ul>
                                     <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
                                     <li class="quick-view"><a href="#">+ Quick View</a></li>
@@ -743,10 +715,10 @@
                             <li>Email: hello.colorlib@gmail.com</li>
                         </ul>
                         <div class="footer-social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-pinterest"></i></a>
                         </div>
                     </div>
                 </div>
@@ -790,7 +762,7 @@
                     <div class="col-lg-12">
                         <div class="copyright-text">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="far fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </div>
                         <div class="payment-pic">
