@@ -1,0 +1,130 @@
+<th:block th:fragment="full-header">
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="header-top">
+            <div class="container">
+                <div class="ht-left">
+                    <div class="mail-service">
+                        <i class="fa fa-envelope"></i>
+                        htt.tung.99@gmail.com
+                    </div>
+                    <div class="phone-service">
+                        <i class="fa fa-phone"></i>
+                        +84 964.590.596
+                    </div>
+                </div>
+                <div class="ht-right">
+                    <div class="account-setting" data-target="#signInSignUp"></div>
+                    <div class="top-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner-header">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2">
+                        <div class="logo">
+                            <a href="/">
+                                <img src="image/logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7">
+                        <div class="advanced-search">
+                            <div class="input-group">
+                                <input type="text" placeholder="Bạn muốn tìm gì?">
+                                <button type="button">
+                                    <i class="fal fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 text-right col-md-3">
+                        <ul class="nav-right">
+                            <li class="cart-icon">
+                                <a href="#">
+                                    <i class="far fa-shopping-cart"></i>
+                                    <span>3</span>
+                                </a>
+                                <div class="cart-hover">
+                                    <div class="select-items">
+                                        <table>
+                                            <tbody>
+                                            <tr>
+                                                <td class="si-pic"><img src="image/select-product-1.jpg" alt=""></td>
+                                                <td class="si-text">
+                                                    <div class="product-selected">
+                                                        <p>$60.00 x 1</p>
+                                                        <h6>Kabino Bedside Table</h6>
+                                                    </div>
+                                                </td>
+                                                <td class="si-close">
+                                                    <i class="fal fa-times"></i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="si-pic"><img src="image/select-product-2.jpg" alt=""></td>
+                                                <td class="si-text">
+                                                    <div class="product-selected">
+                                                        <p>$60.00 x 1</p>
+                                                        <h6>Kabino Bedside Table</h6>
+                                                    </div>
+                                                </td>
+                                                <td class="si-close">
+                                                    <i class="fal fa-times"></i>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="select-total">
+                                        <span>Tổng:</span>
+                                        <h5>$120.00</h5>
+                                    </div>
+                                    <div class="select-button">
+                                        <a href="#" class="primary-btn view-card">Xem giỏ hàng</a>
+                                        <a href="#" class="primary-btn checkout-btn">MUA NGAY</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cart-price">$150.00</li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-item">
+            <div class="container">
+                <div class="nav-depart">
+                    <div class="depart-btn">
+                        <i class="far fa-bars"></i>
+                        <span>Tất cả danh mục</span>
+                        <ul class="depart-hover">
+                            <li><a href="#">Truyện Tranh</a></li>
+                            <li><a href="#">Tiểu Thuyết</a></li>
+                            <li><a href="#">Văn học trong nước</a></li>
+                            <li><a href="#">Văn học nước ngoài</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <nav class="nav-menu mobile-menu">
+                    <ul>
+                        <li><a href="/">Trang chủ</a></li>
+                        <li><a href="/san-pham">Sản phẩm</a></li>
+                        <li><a href="/gioi-thieu">Giới thiệu</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/lien-he">Liên hệ</a></li>
+                    </ul>
+                </nav>
+                <div id="mobile-menu-wrap"></div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+</th:block>
